@@ -1,0 +1,303 @@
+ {
+	"\u0621": {
+		"name" : "hamza",
+		"ijmes-a": "\u02BE",
+		"ijmes-p": "\u02BE",
+		"latex-a": "`",
+		"latex-p": "`"	
+	},
+	"\u0628": {
+		"name"    : "ba",
+		"ijmes-a" : "b",
+		"ijmes-p" : "b",
+		"latex-a" : "b",
+		"latex-p" : "b"
+	},
+	"\u067E": {
+		"name"    : "pa",
+		"ijmes-a" : null,
+		"ijmes-p" : "p",
+		"latex-a" : null,
+		"latex-p" : "p"		
+	},
+	"\u062A": {
+		"name"    : "ta",
+		"ijmes-a" : "t",
+		"ijmes-p" : "t",
+		"latex-a" : "t",
+		"latex-p" : "t"
+	},
+	"\u062B": {
+		"name"    : "tha",
+		"ijmes-a" : "th",
+		"ijmes-p" : "s\u0332",
+		"latex-a" : "th",
+		"latex-p" : "\b{s}"
+	},
+	"\u062C": {
+		"name"    : "ja",
+		"ijmes-a" : "j",
+		"ijmes-p" : "j",
+		"latex-a" : "j",
+		"latex-p" : "j"
+	},
+	"\u0686": {
+		"name"    : "ch",
+		"ijmes-a" : null,
+		"ijmes-p" : "ch",
+		"latex-a" : null,
+		"latex-p" : "ch"
+	},
+	"\u062D": {
+		"name"    : "Ha",
+		"ijmes-a" : "h\u0323",
+		"ijmes-p" : "h\u0323",
+		"latex-a" : "\b{h}",
+		"latex-p" : "\b{h}"
+	},
+	"\u062E": {
+		"name"    : "kha",
+		"ijmes-a" : "kh",
+		"ijmes-p" : "kh",
+		"latex-a" : "kh",
+		"latex-p" : "kh"
+	},
+	"\u062F": {
+		"name"    : "dal",
+		"ijmes-a" : "d",
+		"ijmes-p" : "d",
+		"latex-a" : "d",
+		"latex-p" : "d"
+	},
+	"\u0630": {
+		"name"    : "dhal",
+		"ijmes-a" : "dh",
+		"ijmes-p" : "z\u0332",
+		"latex-a" : "dh",
+		"latex-p" : "\b{z}"
+	},
+	"\u0631": {
+		"name"    : "ra",
+		"ijmes-a" : "r",
+		"ijmes-p" : "r",
+		"latex-a" : "r",
+		"latex-p" : "r"
+	},
+	"\u0631": {
+		"name"    : "ra",
+		"ijmes-a" : "r",
+		"ijmes-p" : "r",
+		"latex-a" : "r",
+		"latex-p" : "r"
+	},
+	"\u0632": {
+		"name"    : "za",
+		"ijmes-a" : "z",
+		"ijmes-p" : "z",
+		"latex-a" : "z",
+		"latex-p" : "z"
+	},
+	"\u0698": {
+		"name"    : "zha",
+		"ijmes-a" : null,
+		"ijmes-p" : "zh",
+		"latex-a" : null,
+		"latex-p" : "z"
+	},
+	"\u0633": {
+		"name"    : "sa",
+		"ijmes-a" : "s",
+		"ijmes-p" : "s",
+		"latex-a" : "s",
+		"latex-p" : "s"
+	},
+	"\u0634": {
+		"name"    : "sha",
+		"ijmes-a" : "sh",
+		"ijmes-p" : "sh",
+		"latex-a" : "sh",
+		"latex-p" : "sh"
+	},
+	"\u0635": {
+		"name"    : "Sa",
+		"ijmes-a" : "s\u0323",
+		"ijmes-p" : "s\u0323",
+		"latex-a" : "\\d{s}",
+		"latex-p" : "\\d{s}"
+	},
+	"\u0636": {
+		"name"    : "Da",
+		"ijmes-a" : "d\u0323",
+		"ijmes-p" : "\u017C",
+		"latex-a" : "\\d{d}",
+		"latex-p" : "\\.{z}"
+	},
+	"\u0639": {
+		"name"    : "ayn",
+		"ijmes-a" : "\u02BF",
+		"ijmes-p" : "\u02BF",
+		"latex-a" : "'",
+		"latex-p" : "'"
+	},
+	"\u063A": {
+		"name"    : "ghayn",
+		"ijmes-a" : "gh",
+		"ijmes-p" : "gh",
+		"latex-a" : "gh",
+		"latex-p" : "gh"
+	},
+	"\u0641": {
+		"name"    : "fa",
+		"ijmes-a" : "f",
+		"ijmes-p" : "f",
+		"latex-a" : "f",
+		"latex-p" : "f"
+	},
+	"\u0642": {
+		"name"    : "kaf",
+		"ijmes-a" : "q",
+		"ijmes-p" : "q",
+		"latex-a" : "q",
+		"latex-p" : "q"
+	},
+	"\u0643": {
+		"name"    : "kaf",
+		"ijmes-a" : "k",
+		"ijmes-p" : "k",
+		"latex-a" : "k",
+		"latex-p" : "k"
+	},
+	"\u06AF": {
+		"name"    : "gaf",
+		"ijmes-a" : null,
+		"ijmes-p" : "g",
+		"latex-a" : null,
+		"latex-p" : "g"
+	},
+	"\u0644": {
+		"name"    : "lam",
+		"ijmes-a" : "l",
+		"ijmes-p" : "l",
+		"latex-a" : "l",
+		"latex-p" : "l"
+	},
+	"\u0645": {
+		"name"    : "mem",
+		"ijmes-a" : "m",
+		"ijmes-p" : "m",
+		"latex-a" : "m",
+		"latex-p" : "m"
+	},
+	"\u0646": {
+		"name"    : "nun",
+		"ijmes-a" : "n",
+		"ijmes-p" : "n",
+		"latex-a" : "n",
+		"latex-p" : "n"
+	},
+	"\u0647": {
+		"name"    : "nun",
+		"ijmes-a" : "n",
+		"ijmes-p" : "n",
+		"latex-a" : "n",
+		"latex-p" : "n"
+	},
+	"\u0647": {
+		"name"    : "ha",
+		"ijmes-a" : "h",
+		"ijmes-p" : "h",
+		"latex-a" : "h",
+		"latex-p" : "h"
+	},
+	"\u0627": {
+		"name"    : "alif",
+		"ijmes-a" : "a\u0304",
+		"ijmes-p" : "a\u0304",
+		"latex-a" : "\\bar{a}",
+		"latex-p" : "\\bar{a}"
+	},
+	"\u0649": {
+		"name"    : "alif maksoura",
+		"ijmes-a" : "a\u0304",
+		"ijmes-p" : "a\u0304",
+		"latex-a" : "\\bar{a}",
+		"latex-p" : "\\bar{a}"
+	},
+	"\u0648": {
+		"name"    : "waw",
+		"ijmes-a" : "w(u\u0304)",
+		"ijmes-p" : "v(u\u0304)",
+		"latex-a" : "w(\\bar{u})",
+		"latex-p" : "v(\\bar{u})"
+	},
+	"\u064A": {
+		"name"    : "ya",
+		"ijmes-a" : "y(i\u0304)",
+		"ijmes-p" : "y(i\u0304)",
+		"latex-a" : "y(\\bar{i})",
+		"latex-p" : "y(\\bar{i})"
+	},
+	"waw-c": {
+		"name"    : "waw-consonant",
+		"ijmes-a" : "w",
+		"ijmes-p" : "v",
+		"latex-a" : "w",
+		"latex-p" : "v"
+	},
+	"waw-v": {
+		"name"    : "waw-vowel",
+		"ijmes-a" : "u\u0304",
+		"ijmes-p" : "u\u0304",
+		"latex-a" : "\\bar{u}",
+		"latex-p" : "\\bar{u}"
+	},	
+	"ya-c": {
+		"name"    : "ya-consonant",
+		"ijmes-a" : "y",
+		"ijmes-p" : "y",
+		"latex-a" : "y",
+		"latex-p" : "y"
+	},
+	"ya-v": {
+		"name"    : "ya-vowel",
+		"ijmes-a" : "i\u0304",
+		"ijmes-p" : "i\u0304",
+		"latex-a" : "\\bar{i}",
+		"latex-p" : "\\bar{i}"
+	},
+	"\u0629": {
+		"name"    : "tah marbuta",
+		"ijmes-a" : "a",
+		"ijmes-p" : null,
+		"latex-a" : "a",
+		"latex-p" : null
+	},
+	"\u064E": {
+		"name"    : "fathah",
+		"ijmes-a" : "a",
+		"ijmes-p" : "a",
+		"latex-a" : "a",
+		"latex-p" : "a"
+	},
+	"\u064F": {
+		"name"    : "dammah",
+		"ijmes-a" : "u",
+		"ijmes-p" : "u",
+		"latex-a" : "u",
+		"latex-p" : "u"
+	},
+	"\u0650": {
+		"name"    : "kasrah",
+		"ijmes-a" : "i",
+		"ijmes-p" : "i",
+		"latex-a" : "i",
+		"latex-p" : "i"
+	},
+	"\u0652": {
+		"name"    : "sukun",
+		"ijmes-a" : "",
+		"ijmes-p" : "",
+		"latex-a" : "",
+		"latex-p" : ""
+	}
+}

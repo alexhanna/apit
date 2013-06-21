@@ -19,9 +19,6 @@ function str_split_unicode($str, $l = 0) {
 ## load the map
 $output = "";
 
-## TK: Do some kind of look-ahead parsing which can look for "al-"
-## TK: Account for madda
-## TK: Decide on some rules for long vowels
 ## TK: How to handle short vowels??
 
 if(isset($q)) {
@@ -56,7 +53,10 @@ if(isset($q)) {
 				$output = $output . "al-";
 				$i++;
 			} else if ($curr == "ّ") {
-				## this is a madda. double the next letter.
+				## this is a shaddah. double the next letter.
+				## TK: Probably a better strategy here is to insert the Arabic
+				## character into $letters so some of the decision rules below
+				## can be applied.
 
 				$output = $output . $map[$next][$langStr] . $map[$next][$langStr];
 				$i++;
@@ -64,6 +64,7 @@ if(isset($q)) {
 				## This is a ya or waw. decide whether to use a consonant or vowel.
 				## Testing is very basic here -- if next letter is a vowel, use consonant.
 				## Otherwise, use long vowel.
+				## TK: There are probably other cases here but this is the most basic.
 
 				if ( ($next == "ا" or $next == "و" or $next == "ي") and $next != "") {
 					$index = $map[$curr]['name'] . '-c';

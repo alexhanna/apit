@@ -2,6 +2,7 @@
 
 $q    = trim($_GET['q']);
 $lang = $_GET['lang'];
+$shamsiya_letters = array("ز", "ر", "ذ", "د", "ث", "ت", "ن", "ل", "ظ", "ط", "ض", "ص", "ش", "س");
 
 ## from http://php.net/manual/en/function.str-split.php
 function str_split_unicode($str, $l = 0) {
@@ -50,15 +51,19 @@ if(isset($q)) {
 				## add al-
 				## TK: this behavior is different in Persian
 
-				$output = $output . "al-";
-				$i++;
-			} else if ($curr == "ّ") {
-				## this is a shaddah. double the next letter.
-				## TK: Probably a better strategy here is to insert the Arabic
-				## character into $letters so some of the decision rules below
-				## can be applied.
-
-				$output = $output . $map[$next][$langStr] . $map[$next][$langStr];
+				if ($i + 2 < count($letters)) {
+					## handle shamsiya letters 
+					$after_next = $letters[$i + 2];
+					if (in_array($after_next, $shamsiya_letters)){
+						$shams = $map[$after_next][$langStr];
+						$output = $output . "a". $shams . "-";
+					} else{
+					$output = $output . "al-";
+				}
+				} else{
+					$output = $output . "al-";
+				}
+				
 				$i++;
 			} else if ($curr == "و" or $curr == "ي") {
 				## This is a ya or waw. decide whether to use a consonant or vowel.
